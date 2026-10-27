@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+:root{--navy:#34404e;--navy2:#46515e;--ink:#4d535c;--muted:#87909a;--red:#b85c5b;--green:#e4edb5;--line:#e4e6e8;--paper:#fff;--side:#e9ecef}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--side);font-family:Roboto,Arial,sans-serif;color:var(--ink);font-size:14px;font-weight:300;line-height:1.8}.topline,.site-header,.breadcrumb,.page-title,main,.site-footer{width:min(1160px,100%);margin-inline:auto}.topline{height:27px;background:#f7f7f7;border-bottom:1px solid #eee;text-align:left;padding:2px 28px;font-size:10px;color:#8b9299}.site-header{background:#fff;min-height:100px;display:flex;align-items:center;justify-content:space-between;padding:18px 30px 12px;gap:25px}.brand{color:#151719;text-decoration:none;display:flex;flex-direction:column;width:260px;line-height:1}.brand strong{font-family:Impact,'Arial Narrow',sans-serif;font-size:35px;letter-spacing:-1.5px;font-weight:900}.brand span{font-family:Impact,'Arial Narrow',sans-serif;font-stretch:condensed;font-size:15px;font-weight:800;margin-top:0}.main-nav{display:flex;align-items:center;gap:26px;align-self:flex-end;margin-bottom:8px}.main-nav a{color:#7f8790;text-decoration:none;font-size:12px;padding:10px 0;border-bottom:2px solid transparent}.main-nav a:hover,.main-nav a.active{color:var(--navy);border-color:var(--red)}.search-toggle,.menu-toggle{border:0;background:transparent;color:#68727c;font-size:23px;cursor:pointer}.menu-toggle{display:none}.breadcrumb{background:var(--navy);color:#f1f3f5;text-align:right;padding:12px 30px;font-size:10px;min-height:38px}.breadcrumb span{opacity:.75}.breadcrumb a{color:#fff;text-decoration:none}.hero{position:relative;width:min(1160px,100%);height:clamp(260px,38vw,450px);margin:auto;background:#dce2e5;overflow:hidden}.hero-slide{position:absolute;inset:0;background-position:center;background-size:cover;opacity:0;transition:opacity .5s}.hero-slide.active{opacity:1}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,20,30,.12),transparent 50%,rgba(10,20,30,.08));pointer-events:none}.slide-arrow{position:absolute;z-index:2;top:48%;border:0;background:rgba(38,48,58,.35);color:white;font-size:34px;width:38px;height:50px;cursor:pointer}.slide-arrow.prev{left:0}.slide-arrow.next{right:0}.slide-dots{position:absolute;z-index:3;bottom:15px;left:50%;transform:translateX(-50%);display:flex;gap:6px}.dot{width:10px;height:10px;border:0;border-radius:50%;background:#aab1b9;cursor:pointer;padding:0}.dot.active{background:#f5f5f5}.content{background:#fff;padding:28px 38px 45px}.intro h1{font-size:clamp(23px,3vw,32px);font-weight:300;letter-spacing:1px;text-align:center;margin:0 0 18px;color:#5a6069}.content p{margin:0 0 14px}.content h2{font-size:23px;font-weight:400;line-height:1.35;margin:10px 0 20px;color:var(--red);text-align:center;letter-spacing:.4px}.content h3{font-size:17px;font-weight:400;line-height:1.55;color:#555e68}.seller-info{padding-top:30px}.contact-highlight{text-align:center;color:var(--red);font-weight:400;margin:28px 0!important}.small-lines{line-height:1.6}.location-section h2{color:#5d6570;font-size:22px}.center{text-align:center}.location-photos{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin:25px 0}.location-photos img{width:100%;height:220px;object-fit:cover}.map-placeholder{height:280px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:7px;margin:25px auto;background-color:#e4e8e2;background-image:linear-gradient(30deg,transparent 48%,#c5d0c5 49%,#c5d0c5 51%,transparent 52%),linear-gradient(120deg,transparent 48%,#c5d0c5 49%,#c5d0c5 51%,transparent 52%);background-size:65px 65px;border:1px solid #d7ddd5;color:#58665d}.map-pin{color:#b95b5b;font-size:32px}.map-placeholder small{font-size:12px}.distances h2,.distances h3{text-align:left;color:#59616b}.table-wrap{overflow-x:auto;margin:20px 0}table{border-collapse:collapse;width:100%;font-size:13px}th,td{border:1px solid #e1e4e6;padding:10px 12px;text-align:left}th{font-weight:500;background:#f4f5f6}.nearby-list{padding-left:22px}.site-footer{background:var(--navy);color:#e4e7eb;padding:17px 30px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:10px}.page-title{background:#fff;padding:0 30px}.page-title h1{background:var(--navy);color:#fff;margin:0 -30px;padding:13px 30px;font-size:14px;font-weight:400}.page-title .breadcrumb{width:auto;margin:0 -30px;padding:10px 30px}.contact-page{min-height:170px;padding-top:32px}.text-link{color:var(--red);text-decoration:none}.privacy-note{margin-top:45px;padding-top:20px;border-top:1px solid var(--line)}.privacy-note h2{font-size:18px;text-align:left;color:#59616b}.impressum-page{min-height:210px;text-align:center;padding-top:45px}.impressum-page h2{font-size:25px;color:#68717c}.impressum-page p{margin:0}.impressum-page a{color:#7a838c;text-decoration:none}.back-top{position:fixed;right:18px;bottom:18px;border:0;background:var(--navy);color:#fff;border-radius:2px;width:38px;height:38px;font-size:22px;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s}.back-top.visible{opacity:1;pointer-events:auto}.search-panel{position:fixed;z-index:10;top:25px;right:max(20px,calc((100vw - 1160px)/2));padding:16px;background:#fff;box-shadow:0 4px 20px #0002}.search-panel form{display:flex;gap:8px}.search-panel input{padding:10px;border:1px solid #ddd}.search-panel button{border:0;background:var(--navy);color:#fff;padding:0 14px;cursor:pointer}
+@media(max-width:700px){.topline{padding-inline:16px}.site-header{min-height:80px;padding:14px 18px;flex-wrap:wrap}.brand{width:auto}.brand strong{font-size:29px}.brand span{font-size:12px}.menu-toggle{display:block;margin-left:auto}.main-nav{display:none;order:3;width:100%;align-self:auto;margin:0;gap:0;flex-direction:column;align-items:stretch}.main-nav.open{display:flex}.main-nav a{padding:10px 0;border-bottom:1px solid #eee}.search-toggle{align-self:flex-start}.breadcrumb{padding:10px 18px}.hero{height:270px}.content{padding:24px 20px 32px}.intro h1{font-size:23px}.content h2{font-size:20px}.location-photos{grid-template-columns:1fr}.location-photos img{height:190px}.site-footer{padding:16px 20px;display:block}.site-footer span{display:block;margin:3px 0}.page-title{padding-inline:18px}.page-title h1{margin-inline:-18px;padding-inline:18px}.page-title .breadcrumb{margin-inline:-18px;padding-inline:18px}.map-placeholder{height:220px}}
+
+/* Layout-Feinschliff für die Originalaufteilung */
+.topline { display:flex; align-items:center; justify-content:space-between; gap:18px; }
+.hero .slide-arrow { z-index:4; }
+.slide-dots { position:absolute; z-index:4; bottom:15px; left:50%; transform:translateX(-50%); display:flex; gap:6px; }
+.location-photos { align-items:stretch; }
+.location-photos img { display:block; object-fit:cover; }
+.map-image { display:block; width:min(360px,100%); height:auto; margin:24px auto 8px; }
+.road-map { display:block; width:min(650px,100%); height:auto; margin:20px auto; }
+.business-contact { margin:28px 0; padding:24px 18px; text-align:center; background:#e8efb8; border:1px solid #d5dda2; color:#555e52; }
+.business-contact p { margin:3px 0; }
+.business-contact a { color:inherit; text-decoration:none; }
+.distances { margin-top:25px; }
+.distances h3 { margin-top:28px; }
+@media(max-width:700px) {
+  .topline { height:auto; min-height:27px; flex-wrap:wrap; padding:5px 16px; }
+  .map-image { width:100%; }
+}
+
+/* Eine gemeinsame dunkle Titel-/Breadcrumb-Leiste wie in der Vorlage */
+.page-title { display:flex; align-items:center; justify-content:space-between; gap:16px; background:var(--navy); padding:0 30px; }
+.page-title h1 { background:transparent; margin:0; padding:12px 0; font-size:14px; color:#fff; }
+.page-title .breadcrumb { width:auto; margin:0; padding:10px 0; background:transparent; min-height:0; text-align:right; }
+@media(max-width:700px) {
+  .page-title { padding-inline:18px; gap:8px; }
+  .page-title h1 { margin:0; padding:10px 0; }
+  .page-title .breadcrumb { margin:0; padding:10px 0; }
+}
+
+/* Datenschutzerklärung */
+.privacy-page{background:#fff;padding:34px 30px 55px;min-height:420px}
+.privacy-page>h2{font-size:27px;font-weight:400;color:var(--navy);margin:0 0 18px;line-height:1.35}
+.privacy-section{margin:30px 0 24px}
+.privacy-section h2{font-size:21px;line-height:1.4;font-weight:400;color:var(--navy);margin:0 0 10px}
+.privacy-page p{margin:0 0 14px}
+.privacy-note{margin-top:30px;padding:16px 18px;border-left:3px solid var(--red);background:#f7f7f7}
+@media(max-width:640px){.privacy-page{padding:24px 18px 38px}.privacy-page>h2{font-size:23px}.privacy-section h2{font-size:18px}}
+
+/* Autobahn distance table: highway labels are separate rows; city names and distances occupy matching columns. */
+.distance-table{border-collapse:collapse;width:100%;table-layout:fixed;font-size:13px;color:#555e68;background:#fff}
+.distance-table th,.distance-table td{border:1px solid #dfe2e4;padding:10px 14px;text-align:left;vertical-align:middle;background:#fff;font-weight:300}
+.distance-table th{width:50%;font-weight:400}
+.distance-table td{width:50%}
+.distance-table .distance-empty{width:50%;background:#fff;border-right:1px solid #dfe2e4}
+.distance-table .distance-title{width:100%;text-align:center;font-weight:500;letter-spacing:1.4px;text-transform:uppercase;padding:18px 14px;background:#fff;color:#59616b}
+.distance-table tr:first-child th.distance-title{border-bottom:1px solid #dfe2e4}
+
+/* Match the reference: description and location details are stacked vertically. */
+.location-photos { margin: 0 0 28px; }
+.location-intro-grid { display:grid; grid-template-columns: 1fr; gap:24px; align-items:start; }
+.location-intro-grid > p { margin:0; }
+.location-address { width:100%; }
+.location-address h2 { margin-top:0; }
+
+
+/* Kontaktseite – Aufbau nach dem Referenzfoto */
+.contact-reference { background: var(--side); }
+.contact-reference .topline { width:min(1160px,100%); }
+.contact-reference-header { min-height:112px; justify-content:flex-start; padding:20px 30px 18px; }
+.contact-reference-header .brand { width:auto; }
+.contact-reference-header .brand strong { font-size:52px; line-height:.9; }
+.contact-reference-header .brand span { font-size:20px; }
+.contact-reference-bar { width:min(1160px,100%); margin:0 auto; background:var(--navy); color:#f1f3f5; min-height:48px; padding:12px 30px; font-size:14px; font-weight:300; }
+.contact-reference-main { width:min(1160px,100%); margin:0 auto; background:#fff; min-height:220px; padding:34px 30px 40px; }
+.contact-reference-main p { margin:0 0 22px; }
+.contact-reference-main .text-link { color:var(--red); text-decoration:none; }
+.contact-reference-footer { width:min(1160px,100%); margin:0 auto; background:var(--navy); color:#e4e7eb; padding:18px 30px; font-size:11px; }
+@media(max-width:700px){ .contact-reference-header{min-height:90px;padding:16px 18px}.contact-reference-header .brand strong{font-size:42px}.contact-reference-header .brand span{font-size:16px}.contact-reference-bar{padding:12px 18px}.contact-reference-main{padding:28px 20px 34px;min-height:200px}.contact-reference-footer{padding:16px 20px} }
+
+/* Datenschutzerklärung: Text und Überschriften schwarz wie gewünscht; Layout und Schriftgrößen bleiben unverändert. */
+.privacy-content,
+.privacy-content p,
+.privacy-content h1,
+.privacy-content h2,
+.privacy-content h3,
+.privacy-content strong,
+.privacy-content li,
+.privacy-content a {
+  color: #000 !important;
+}
