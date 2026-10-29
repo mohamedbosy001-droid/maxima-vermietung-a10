@@ -82,3 +82,70 @@
 .privacy-content a {
   color: #000 !important;
 }
+
+
+/* Updated rental page styling: fresh blue/sand surfaces, all text remains black. */
+:root {
+  --navy: #dce9f2;
+  --navy2: #dce9f2;
+  --ink: #000000;
+  --muted: #000000;
+  --red: #d7b98e;
+  --green: #e8f0f4;
+  --line: #d8e1e7;
+  --paper: #ffffff;
+  --side: #edf3f6;
+}
+body { color: #000 !important; background: #f3eee5; }
+body :is(p, li, h1, h2, h3, h4, small, strong, span, td, th, a, div) { color: #000; }
+.topline { background: #faf7f0; border-color: #d8cbb8; }
+.site-header { border-bottom: 4px solid #a77b50; }
+.brand, .brand strong, .brand span { color: #000 !important; }
+.main-nav a, .main-nav a:hover, .main-nav a.active { color: #000; }
+.main-nav a:hover, .main-nav a.active { border-color: #a77b50; }
+.breadcrumb, .page-title, .page-title h1, .page-title .breadcrumb, .site-footer {
+  background: #e6e0d2 !important; color: #000 !important;
+}
+.breadcrumb a, .site-footer a { color: #000 !important; }
+.rental-intro { background: #fff; border-top: 6px solid #a77b50; padding: clamp(24px, 4vw, 48px); }
+.rental-heading { text-align: center; padding: 24px 20px; margin: 0 0 26px; background: #eee6d8; border-radius: 12px; }
+.rental-heading h1 { margin: 0 0 12px; font-size: clamp(25px, 3.2vw, 36px); line-height: 1.25; font-weight: 700; color: #000 !important; letter-spacing: 0; }
+.rental-address { margin: 0 !important; font-weight: 500; }
+.rental-intro > h2, .rental-contact h2 { text-align: left; font-size: 21px; color: #000 !important; border-left: 5px solid #a77b50; padding: 5px 0 5px 14px; margin: 26px 0 12px; }
+.rental-intro ul { padding: 18px 28px 18px 44px; margin: 0 0 22px; background: #f8f4ec; border-radius: 10px; }
+.rental-intro li { margin: 5px 0; }
+.rental-legal { padding: 14px 16px; background: #f8f4ec; border-radius: 8px; }
+.rental-contact { margin-top: 28px; padding: 22px 24px; background: #e9dfce; border: 1px solid #a77b50; border-radius: 12px; }
+.rental-contact h2 { margin-top: 0; }
+.rental-contact p { margin: 7px 0; }
+.rental-contact a { text-decoration: underline; text-underline-offset: 3px; }
+.site-footer-contact { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 5px; padding: 26px 20px; background: #e6e0d2 !important; border-top: 5px solid #a77b50; font-size: 13px; }
+.site-footer-contact .footer-owner { font-size: 18px; font-weight: 700; }
+.site-footer-contact .footer-copyright { margin-top: 12px; font-size: 11px; }
+.site-footer-contact a { text-decoration: underline; }
+.location-section { background: #fff; }
+.location-section h3, .location-section h2 { color: #000 !important; }
+.distance-table, .distance-table th, .distance-table td { color: #000 !important; }
+@media(max-width:700px) {
+  .rental-intro { padding: 22px 18px 28px; }
+  .rental-heading { padding: 20px 14px; }
+  .rental-contact { padding: 18px 16px; }
+  .rental-intro ul { padding-left: 32px; }
+}
+
+/* Final palette: olive, warm brown and beige; navigation remains visible while scrolling. */
+:root { --navy:#5b6042; --navy2:#e6e0d2; --ink:#000; --muted:#000; --red:#a77b50; --green:#e6e4d4; --line:#d8cbb8; --paper:#fff; --side:#f3eee5; }
+body { background:#f3eee5 !important; color:#000 !important; }
+.topline { background:#faf7f0 !important; border-color:#d8cbb8 !important; color:#000 !important; }
+.site-header { position:sticky; top:0; z-index:100; background:#fff !important; border-bottom:4px solid #a77b50 !important; }
+.main-nav a, .main-nav a:hover, .main-nav a.active, .brand, .brand strong, .brand span { color:#000 !important; }
+.main-nav a:hover, .main-nav a.active { border-color:#a77b50 !important; }
+.breadcrumb, .page-title, .page-title h1, .page-title .breadcrumb, .site-footer { background:#e6e0d2 !important; color:#000 !important; }
+.rental-intro { background:#fff !important; border-top-color:#a77b50 !important; }
+.rental-heading { background:#eee6d8 !important; }
+.rental-intro ul, .rental-legal { background:#f8f4ec !important; }
+.rental-contact { background:#e9dfce !important; border-color:#a77b50 !important; }
+.site-footer-contact { background:#e6e0d2 !important; border-top-color:#a77b50 !important; }
+.site-footer-contact *, .site-footer *, .topline *, .contact-page-content * { color:#000 !important; }
+.contact-page-content { min-height:360px; }
+@media (max-width:700px) { .site-header { position:sticky; top:0; } .topline { gap:4px 12px; } }
