@@ -186,3 +186,28 @@ body :is(p, li, h1, h2, h3, h4, small, strong, span, td, th, a, div) { color:#00
 .search-panel button { background:#dcecff !important; color:#000 !important; border:1px solid #35ef9a; }
 .location-section { background:#fff !important; }
 @media(max-width:700px) { .site-header { border-bottom-width:4px !important; } }
+
+
+/* Final requested palette: blue with neon-green accents; all text stays black. */
+:root {
+  --navy: #dcecff; --navy2: #eaf4ff; --ink: #000; --muted: #000;
+  --red: #35ef9a; --green: #d9ffe9; --line: #c7dff2;
+  --paper: #fff; --side: #f1f7fc;
+}
+html, body { background: #f1f7fc !important; color: #000 !important; }
+body :is(p, li, h1, h2, h3, h4, small, strong, span, td, th, a, div) { color: #000 !important; }
+.topline { background: #eef6ff !important; border-color: #b9d8f2 !important; color: #000 !important; }
+.site-header { background: #fff !important; border-bottom: 4px solid #35ef9a !important; }
+.brand, .brand strong, .brand span, .main-nav a, .menu-toggle, .search-toggle { color: #000 !important; }
+.main-nav a:hover, .main-nav a.active { border-color: #35ef9a !important; }
+.breadcrumb, .page-title, .page-title h1, .page-title .breadcrumb, .site-footer { background: #dcecff !important; color: #000 !important; }
+.hero { border-bottom: 5px solid #35ef9a !important; }
+.rental-intro { background: #fff !important; border-top: 6px solid #35ef9a !important; }
+.rental-heading { background: #eaf4ff !important; border: 1px solid #c7dff2 !important; }
+.rental-intro > h2, .rental-contact h2 { border-left-color: #35ef9a !important; color: #000 !important; }
+.rental-intro ul, .rental-legal { background: #f0f8ff !important; border: 1px solid #d7e9f8 !important; }
+.rental-contact { background: #eaf4ff !important; border: 1px solid #35ef9a !important; }
+.site-footer-contact { background: #dcecff !important; border-top: 5px solid #35ef9a !important; }
+.back-top { background: #35ef9a !important; color: #000 !important; border: 1px solid #16c978 !important; }
+.search-panel button { background: #dcecff !important; color: #000 !important; border: 1px solid #35ef9a !important; }
+.location-photos, .preserved-location-photos { display: none !important; }
