@@ -149,3 +149,40 @@ body { background:#f3eee5 !important; color:#000 !important; }
 .site-footer-contact *, .site-footer *, .topline *, .contact-page-content * { color:#000 !important; }
 .contact-page-content { min-height:360px; }
 @media (max-width:700px) { .site-header { position:sticky; top:0; } .topline { gap:4px 12px; } }
+
+
+/* Neue Markenfarben: modernes Blau mit neongruenen Akzenten; Texte bleiben schwarz. */
+:root {
+  --navy: #dcecff;
+  --navy2: #eaf4ff;
+  --ink: #000000;
+  --muted: #000000;
+  --red: #27e88a;
+  --green: #d9ffe9;
+  --line: #c7dff2;
+  --paper: #ffffff;
+  --side: #f1f7fc;
+}
+body { background:#f1f7fc !important; color:#000 !important; }
+body :is(p, li, h1, h2, h3, h4, small, strong, span, td, th, a, div) { color:#000; }
+.topline { background:#eef6ff !important; border-color:#b9d8f2 !important; color:#000 !important; }
+.site-header { background:#fff !important; border-bottom:4px solid #35ef9a !important; }
+.brand, .brand strong, .brand span { color:#000 !important; }
+.main-nav a, .main-nav a:hover, .main-nav a.active { color:#000 !important; }
+.main-nav a:hover, .main-nav a.active { border-color:#35ef9a !important; }
+.menu-toggle, .search-toggle { color:#000 !important; }
+.breadcrumb, .page-title, .page-title h1, .page-title .breadcrumb, .site-footer { background:#dcecff !important; color:#000 !important; }
+.breadcrumb a, .site-footer a { color:#000 !important; }
+.hero { border-bottom:5px solid #35ef9a; }
+.rental-intro { background:#fff !important; border-top:6px solid #35ef9a !important; }
+.rental-heading { background:#eaf4ff !important; border:1px solid #c7dff2; }
+.rental-intro > h2, .rental-contact h2 { border-left-color:#35ef9a !important; color:#000 !important; }
+.rental-intro ul, .rental-legal { background:#f0f8ff !important; border:1px solid #d7e9f8; }
+.rental-contact { background:#eaf4ff !important; border:1px solid #35ef9a !important; }
+.site-footer-contact { background:#dcecff !important; border-top-color:#35ef9a !important; }
+.site-footer-contact *, .site-footer *, .topline *, .contact-page-content * { color:#000 !important; }
+.text-link { color:#000 !important; text-decoration-color:#35ef9a; }
+.back-top { background:#35ef9a !important; color:#000 !important; border:1px solid #16c978; }
+.search-panel button { background:#dcecff !important; color:#000 !important; border:1px solid #35ef9a; }
+.location-section { background:#fff !important; }
+@media(max-width:700px) { .site-header { border-bottom-width:4px !important; } }
